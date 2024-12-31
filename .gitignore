@@ -1,0 +1,18 @@
+# Ignorar archivos y directorios de caché de Python
+__pycache__/
+*.py[cod]
+
+# Ignorar archivos de configuración de IDE
+.vscode/
+.idea/
+
+# Ignorar archivos de compilación
+build/
+dist/
+*.egg-info/
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar archivos de configuración de AWS
+.aws-sam/
