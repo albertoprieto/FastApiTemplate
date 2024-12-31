@@ -1,11 +1,12 @@
 import sys
 import os
+import pytest
+from fastapi.testclient import TestClient
 
 # Agregar el directorio raíz del proyecto al sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from fastapi.testclient import TestClient
-from ..app import app
+from app import app
 
 client = TestClient(app)
 
