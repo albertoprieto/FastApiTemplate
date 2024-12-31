@@ -4,3 +4,4 @@ mangum
 pydantic==1.10.4
 typing_extensions==4.4.0
 pytest
+httpx
