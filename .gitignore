@@ -14,5 +14,4 @@ dist/
 # Ignorar archivos de logs
 *.log
 
-# Ignorar archivos de configuración de AWS
 .aws-sam/
